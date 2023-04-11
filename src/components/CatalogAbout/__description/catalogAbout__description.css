@@ -1,0 +1,27 @@
+.catalogAbout__description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F8F8F8;
+    margin: 16px auto 0 auto;
+    max-width: 846px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .catalogAbout__description {
+        font-size: 18px;
+        line-height: 21px;
+        max-width: 646px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .catalogAbout__description {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 334px;
+    }
+}

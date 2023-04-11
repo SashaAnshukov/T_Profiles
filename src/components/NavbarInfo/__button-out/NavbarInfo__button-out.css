@@ -1,0 +1,14 @@
+.NavbarInfo__button-out {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .NavbarInfo__button-out{
+        display: flex;
+        background: url(../../../images/outLogo.svg);
+        background-repeat: no-repeat;
+        margin: 32px 0 0 0;
+        min-width: 18px;
+    }
+}
+

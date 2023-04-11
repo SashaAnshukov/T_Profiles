@@ -1,0 +1,11 @@
+.main__add-button-component {
+    border: none;
+    background: url("../../../images/frame.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 24px;
+    min-width: 24px;
+    margin-left: 8px;
+    padding: 0;
+    outline: none;
+}

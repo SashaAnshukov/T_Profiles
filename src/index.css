@@ -1,0 +1,51 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/fonts.css');
+
+@import url('./components/FormList/__container/FormList__container.css');
+@import url('./components/FormList/__button/FormList__button.css');
+@import url('./components/FormList/__form/FormList__form.css');
+@import url('./components/FormList/__input-error/Formlist__input-error.css');
+@import url('./components/FormList/__title/Formlist__title.css');
+
+@import url('./components/FormComponent/__input/_text/FormComponent__input_text.css');
+@import url('./components/FormComponent/__input/FormComponent__input.css');
+@import url('./components/FormComponent/__label/FormComponent__label.css');
+@import url('./components/FormComponent/__name/FormComponent__name.css');
+
+@import url('./components/Main/__conatainer/main__container.css');
+@import url('./components/Main/__elements/main__elements.css');
+@import url('./components/Main/__add-button/main__add-button.css');
+@import url('./components/Main/add-button-component/main__add-button-component.css');
+
+@import url('./components/NavbarInfo/__button/NavbarInfo__button.css');
+@import url('./components/NavbarInfo/__button-out/NavbarInfo__button-out.css');
+@import url('./components/NavbarInfo/__button-back/NavbarInfo__button-back.css');
+@import url('./components/NavbarInfo/__container/NavbarInfo__container.css');
+@import url('./components/NavbarInfo/__header/NavbarInfo__header.css');
+@import url('./components/NavbarInfo/__info/NavbarInfo__info.css');
+
+@import url('./components/CatalogAbout/__title/catalogAbout__title.css');
+@import url('./components/CatalogAbout/__description/catalogAbout__description.css');
+
+@import url('./components/ProfileData/profileData.css');
+@import url('./components/ProfileData/__avatar/profileData__avatar.css');
+@import url('./components/ProfileData/__avatar-button/profileData__avatar-button.css');
+@import url('./components/ProfileData/__holder/profileData__holder.css');
+@import url('./components/ProfileData/__info/profileData__info.css');
+@import url('./components/ProfileData/__space/profileData__space.css');
+@import url('./components/ProfileData/__subtitle/profileData__subtitle.css');
+@import url('./components/ProfileData/__title/profileData__title.css');
+
+@import url('./components/PartnerInfo/partnerInfo.css');
+@import url('./components/PartnerInfo/__about/partnerInfo__about.css');
+@import url('./components/PartnerInfo/__contact/partnerInfo__contact.css');
+@import url('./components/PartnerInfo/__icon/partnerInfo__icon.css');
+
+@import url('./components/Card/card.css');
+@import url('./components/Card/__image/card__image.css');
+@import url('./components/Card/__info/card__info.css');
+@import url('./components/Card/__like-container/card__like-container.css');
+@import url('./components/Card/__like/card__like.css');
+@import url('./components/Card/__like/_active/card__like_active.css');
+@import url('./components/Card/__name/card__name.css');
+

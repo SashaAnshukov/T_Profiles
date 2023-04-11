@@ -1,0 +1,26 @@
+.catalogAbout__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFF;
+    padding-top: 64px;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .catalogAbout__title {
+        font-size: 44px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .catalogAbout__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}

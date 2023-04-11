@@ -1,0 +1,6 @@
+.card__like-container {
+    margin: 0 20px 20px 0;
+    justify-self: flex-end;
+    background-color: #F8F8F8;
+    border-radius: 4px;
+}

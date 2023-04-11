@@ -1,0 +1,46 @@
+.partnerInfo__about {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 136.19%;
+    color: #151317;
+    margin: 1px 0 0 188px;
+    max-width: 630px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .partnerInfo__about {
+        max-width: 530px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .partnerInfo__about {
+        max-width: 430px;
+        margin: 1px 0 55px 188px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .partnerInfo__about {
+        max-width: 330px;
+        margin: 1px 0 55px 188px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .partnerInfo__about {
+        max-width: 343px;
+        margin: 1px auto 55px auto;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .partnerInfo__about {
+        
+        margin: 1px 16px 32px 16px;
+    }
+}

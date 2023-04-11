@@ -1,0 +1,21 @@
+.NavbarInfo__header {
+    display: flex;
+    padding: 0 80px 48px 80px;
+    justify-content: space-between;
+    flex-direction: row;
+    /*height: 265px;*/
+    background-color: #512689;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .NavbarInfo__header {
+        padding: 0 40px 48px 40px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .NavbarInfo__header {
+        padding: 0 27px 48px 27px;
+    }
+}

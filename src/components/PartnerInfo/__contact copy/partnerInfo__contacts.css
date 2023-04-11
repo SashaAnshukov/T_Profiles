@@ -1,0 +1,5 @@
+@media screen and (max-width:640px) {
+    .partnerInfo__contacts {
+        margin: 1px auto 24px auto;
+    }
+}

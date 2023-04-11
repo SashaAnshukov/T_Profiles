@@ -1,0 +1,13 @@
+.profileData__avatar-button {
+    margin: 0;
+    padding: 60px;
+    width: 26px;
+    height: 26px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+}

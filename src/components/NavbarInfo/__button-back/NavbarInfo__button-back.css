@@ -1,0 +1,14 @@
+.NavbarInfo__button-back {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .NavbarInfo__button-back {
+        display: flex;
+        background: url(../../../images/vectorLeft.svg);
+        background-repeat: no-repeat;
+        margin: 32px 0 0 0;
+        min-width: 18px;
+    }
+}
+

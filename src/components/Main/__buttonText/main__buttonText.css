@@ -1,0 +1,12 @@
+.main__buttonText {
+    color: #F8F8F8;;
+    font-style: normal;
+    display: flex;
+    min-width: 96px; 
+    align-items: center;
+    justify-content: center;
+    text-decoration:  none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px
+}

@@ -1,0 +1,12 @@
+.partnerInfo {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: 0;
+}
+
+@media screen and (max-width:1120px) {
+    .partnerInfo {
+        flex-direction: column-reverse;
+    }
+}

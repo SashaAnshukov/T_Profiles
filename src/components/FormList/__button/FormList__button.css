@@ -1,0 +1,35 @@
+.FormList__button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #512689;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 24px;
+    min-width: 468px;
+    min-height: 50px;
+    padding: 0;
+    color: #ffffff;
+
+    font-style: normal;
+    font-size: 16px;
+    line-height: 136.19%;
+    cursor: pointer;
+    outline: none;
+}
+
+.FormList__button:hover {
+    opacity: 0.85;
+}
+
+.FormList__button:disabled {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+@media screen and (max-width:680px) {
+    .FormList__button {
+        min-width: 343px;
+    }
+}
