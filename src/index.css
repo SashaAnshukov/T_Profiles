@@ -9,6 +9,7 @@
 
 @import url('./components/FormComponent/__input/_text/FormComponent__input_text.css');
 @import url('./components/FormComponent/__input/FormComponent__input.css');
+@import url('./components/FormComponent/__input/_error/FormComponent__input_error.css');
 @import url('./components/FormComponent/__label/FormComponent__label.css');
 @import url('./components/FormComponent/__name/FormComponent__name.css');
 

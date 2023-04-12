@@ -18,9 +18,7 @@ function Register ({registration}) {
     const notConfirmedPassword = confirmPassword !== values.password;
 
     const checkInputValidity = (
-        !values.email || !values.password
-        || errors.email || errors.password 
-        || notConfirmedPassword)
+        errors.name || !values.email || !values.password || errors.email || errors.password || notConfirmedPassword)
         ? 
         true 
         : 
@@ -53,26 +51,61 @@ function Register ({registration}) {
                 disabled={checkInputValidity} 
                 onSubmit={handleSubmit} buttonText = {'Зарегистрироваться'}
             >
-                <FormComponent name = {'Имя'} value = {values.name || ''} onChange = {handleChange}
-                    minLength = {'1'} maxLength = {'30'} required type = {'text'} nameInput ={'name'}
+                <FormComponent 
+                    name = {'Имя'} 
+                    FormComponentInputClassName = {
+                        `FormComponent__input ${errors.name ? 'FormComponent__input_error' : 'FormComponent__input_notError'}`
+                    }
+                    value = {values.name || ''}
+                    onChange = {handleChange}
+                    minLength = {'1'} maxLength = {'30'}
+                    required 
+                    type = {'text'}
+                    nameInput ={'name'}
                 />
                 <p className="Formlist__input-error">{errors.name}</p>    
                 
-                <FormComponent name = {'Электронная почта'} value = {values.email || ''} onChange = {handleChange}
-                    minLength = {'1'} maxLength = {'30'} required type = {'email'} nameInput ={'email'}
+                <FormComponent
+                    name = {'Электронная почта'}
+                    FormComponentInputClassName = {
+                        `FormComponent__input ${errors.email ? 'FormComponent__input_error' : 'FormComponent__input_notError'}`
+                    }
+                    value = {values.email || ''}
+                    onChange = {handleChange}
+                    minLength = {'1'} maxLength = {'30'}
+                    required
+                    type = {'email'}
+                    nameInput ={'email'}
                 />
-                <p className="Formlist__input-error">{errors.email}</p>
+                <p className="Formlist__input-error ">{errors.email}</p>
                 
-                <FormComponent name = {'Пароль'} value = {values.password || ''} onChange = {handleChange}
-                    minLength = {'4'}  required type = {'password'} nameInput ={'password'}
+                <FormComponent
+                    name = {'Пароль'}
+                    FormComponentInputClassName = {
+                        `FormComponent__input ${errors.password ? 'FormComponent__input_error' : 'FormComponent__input_notError'}`
+                    }
+                    value = {values.password || ''}
+                    onChange = {handleChange}
+                    minLength = {'4'}
+                    required
+                    type = {'password'}
+                    nameInput ={'password'}
                 > 
                     {viewLogoEye}
                 </FormComponent>
                 <p className="Formlist__input-error">{errors.password}</p> 
 
-                <FormComponent name = {'Подтвердите пароль'} value = {confirmPassword || ''} 
+                <FormComponent
+                    name = {'Подтвердите пароль'}
+                    FormComponentInputClassName = {
+                        `FormComponent__input ${inputActive && notConfirmedPassword ? "FormComponent__input_error" : 'FormComponent__input_notError'}`
+                    }
+                    value = {confirmPassword || ''} 
                     onChange = {handleChangeConfirmPassword}
-                    minLength = {'4'}  required type = {'password'} nameInput ={'confirmPassword'}
+                    minLength = {'4'}
+                    required
+                    type = {'password'}
+                    nameInput ={'confirmPassword'}
                 >
                     {viewLogoEye} 
                 </FormComponent>

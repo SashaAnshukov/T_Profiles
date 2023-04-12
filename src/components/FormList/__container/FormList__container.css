@@ -3,5 +3,11 @@
     padding: 16px 16px 24px 16px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
-    margin: 253px auto 0 auto;
+    margin: 253px auto 252px auto;
+}
+
+@media screen and (max-width:375px) {
+    .FormList__container {
+        margin: 64px auto 229px auto;
+    }
 }
