@@ -15,16 +15,16 @@ function PartnerInfo({card}) {
         <section className="partnerInfo">
             <p className="partnerInfo__about">{info.about}</p>
             <div>
-                <div className="partnerInfo__contacts">
-                    <ul className="partnerInfo__contact">
+                <ul className="partnerInfo__contacts">
+                    <li className="partnerInfo__contact">
                         <img className="partnerInfo__icon" src={logoPhone} alt="Изображение трубки телефона"/>
                         +7 (954) 333-44-55
-                    </ul>
-                    <ul className="partnerInfo__contact">
+                    </li>
+                    <li className="partnerInfo__contact">
                         <img className="partnerInfo__icon" src={logoMail} alt="Изображение конверта"/>
                         {card.email}
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
     );
